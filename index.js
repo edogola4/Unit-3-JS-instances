@@ -37,3 +37,14 @@ class Dinner {
         this.#dessert = dessert;
     }
 }
+
+// Testing 
+// Creating instances for each class
+let breakfast = new Breakfast("pancakes", "coffee");
+let lunch = new Lunch("caesar salad", "goat-head soup", "iced tea");
+let dinner = new Dinner("garden salad", "chicken soup", "misheveve", "chocolate cake");
+
+// Outputting instances
+console.log(breakfast); 
+console.log(lunch);     
+console.log(dinner);   
